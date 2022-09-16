@@ -4,7 +4,7 @@ import telebot
 from telebot import types
 from pathlib import Path
 
-bot = telebot.TeleBot('5784890908:AAEiDjRjFCHVmGz-q7sKbLtR-0IbgbeKaPg')
+bot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['start'])
